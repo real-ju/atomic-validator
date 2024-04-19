@@ -1,6 +1,6 @@
 {
   "name": "atomic-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "易用的表单验证器",
   "type": "module",
   "main": "index.ts",

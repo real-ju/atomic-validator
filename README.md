@@ -73,9 +73,9 @@ const rst = validator.match(value, /abc/); // true
 
 | 字段      | 说明                     | 参数                                      | 返回值           |
 | --------- | ------------------------ | ----------------------------------------- | ---------------- |
-| validate  | 验证表单                 | (data:`表单对象`, rules: `规则数组`)      | true\|`错误数组` |
-| single    | 验证单个字段（多条规则） | (value:`字段值`, rules: `规则数组`)       | true\|`错误信息` |
-| single    | 验证单个字段（单条规则） | (value:`字段值`, rules: RegExp \| string) | true\|`错误信息` |
+| validate  | 验证表单                 | (data: `表单对象`, rules: `规则数组`)      | true\|`错误数组` |
+| single    | 验证单个字段（多条规则） | (value: `字段值`, rules: `规则数组`)       | true\|`错误信息` |
+| single    | 验证单个字段（单条规则） | (value: `字段值`, rule: RegExp \| string) | true\|`错误信息` |
 | customize | 内置验证器               | -                                         | -                |
 
 ### 预设规则（增加中）
