@@ -1,11 +1,15 @@
 {
   "name": "atomic-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "易用的表单验证器",
   "type": "module",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/real-ju/atomic-validator.git"
   },
   "keywords": [],
   "author": "",
